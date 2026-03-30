@@ -14,14 +14,30 @@ A simple and efficient web application to track internship applications, manage 
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Tech Stack
 
-- Frontend: React / HTML / CSS / JavaScript
-- Backend: (if any, e.g., Node.js, Express)
-- Database: (if any, e.g., MongoDB / LocalStorage)
+### 🔧 Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- REST APIs
 
+### 🎨 Frontend
+- React
+- JavaScript
+- HTML
+- CSS
 
+### 🗄️ Database
+- H2 Database (In-Memory)
 
+### 📡 API Testing & Documentation
+- Swagger UI
+- Postman
+
+### 🛠️ Tools & IDE
+- IntelliJ IDEA
+- Visual Studio Code
 
 
 ## 📦 Installation & Setup
