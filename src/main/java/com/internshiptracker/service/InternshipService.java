@@ -1,6 +1,6 @@
 package com.internshiptracker.service;
 
-import com.internshiptracker.model.Internship;
+import com.internshiptracker.entity.Internship;
 import com.internshiptracker.repository.InternshipRepository;
 import org.springframework.stereotype.Service;
 

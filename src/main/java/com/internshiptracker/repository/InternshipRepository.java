@@ -1,6 +1,6 @@
 package com.internshiptracker.repository;
 
-import com.internshiptracker.model.Internship;
+import com.internshiptracker.entity.Internship;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

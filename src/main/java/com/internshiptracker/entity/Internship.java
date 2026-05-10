@@ -1,6 +1,9 @@
-package com.internshiptracker.model;
+package com.internshiptracker.entity;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class Internship {
@@ -11,18 +14,9 @@ public class Internship {
 
     private String companyName;
     private String role;
-    private String status; // Applied, Interview, Rejected, Offer
+    private String status;
 
-    // Constructors
-    public Internship() {}
-
-    public Internship(String companyName, String role, String status) {
-        this.companyName = companyName;
-        this.role = role;
-        this.status = status;
-    }
-
-    // Getters & Setters
+    // Getter and Setter for id
     public Long getId() {
         return id;
     }
@@ -31,6 +25,7 @@ public class Internship {
         this.id = id;
     }
 
+    // Getter and Setter for companyName
     public String getCompanyName() {
         return companyName;
     }
@@ -39,6 +34,7 @@ public class Internship {
         this.companyName = companyName;
     }
 
+    // Getter and Setter for role
     public String getRole() {
         return role;
     }
@@ -47,6 +43,7 @@ public class Internship {
         this.role = role;
     }
 
+    // Getter and Setter for status
     public String getStatus() {
         return status;
     }
@@ -55,5 +52,3 @@ public class Internship {
         this.status = status;
     }
 }
-
-

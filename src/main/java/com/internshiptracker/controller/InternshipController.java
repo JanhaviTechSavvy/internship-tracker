@@ -1,6 +1,6 @@
 package com.internshiptracker.controller;
 
-import com.internshiptracker.model.Internship;
+import com.internshiptracker.entity.Internship;
 import com.internshiptracker.service.InternshipService;
 import org.springframework.web.bind.annotation.*;
 
