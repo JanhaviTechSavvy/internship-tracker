@@ -25,10 +25,10 @@ function App() {
 
   // FETCH DATA
   const fetchData = () => {
-    fetch("http://localhost:8080/api/internships")
-      .then((res) => res.json())
-      .then((data) => setData(data));
-  };
+  fetch("https://internship-tracker-559m.onrender.com/api/internships")
+    .then((res) => res.json())
+    .then((data) => setData(data));
+};
 
   useEffect(() => {
     fetchData();
