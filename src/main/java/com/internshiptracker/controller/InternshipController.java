@@ -11,7 +11,7 @@ import java.util.List;
 
 @CrossOrigin(origins = {
         "http://localhost:5173",
-        "https://6a0c541---beamish-praline-7bf604.netlify.app"
+        "https://6a0c5418016ea70079c0c9d2--beamish-praline-7bf604.netlify.app/"
 })
 public class InternshipController {
 
