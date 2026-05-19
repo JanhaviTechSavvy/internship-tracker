@@ -8,9 +8,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/internships")
+
 @CrossOrigin(origins = {
         "http://localhost:5173",
-        "https://6a0b4e0014c5e3b2a7be1113--keen-sunburst-01570c.netlify.app"
+        "https://6a0c541---beamish-praline-7bf604.netlify.app"
 })
 public class InternshipController {
 
