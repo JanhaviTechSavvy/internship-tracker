@@ -53,7 +53,7 @@ function App() {
 
     const method = editId ? "PUT" : "POST";
     const url = editId
-      ? `http://localhost:8080/api/internships/${editId}`
+      ? `https://internship-tracker-559m.onrender.com/api/internships${editId}`
       : "http://localhost:8080/api/internships";
 
     fetch(url, {
@@ -74,7 +74,7 @@ function App() {
 
   // DELETE
   const deleteInternship = (id) => {
-    fetch(`http://localhost:8080/api/internships/${id}`, {
+    fetch(`https://internship-tracker-559m.onrender.com/api/internships${id}`, {
       method: "DELETE"
     }).then(() => {
       fetchData();
